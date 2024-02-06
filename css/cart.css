@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+*::selection{
+    background-color: #e096c7;
+}
+
+
+body{
+    background-color: #f7f2f3;
+}
+
+
+.box1{
+    width: 25%;
+    height: 500px;
+    margin: auto;
+    margin-top:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+
+
+
+label{
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+input[type=text]{
+    width: 60%;
+    height: 30px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(134, 133, 133);
+}
+
+input[type=number]{
+    width:60%;
+    height: 30px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(134, 133, 133);
+}
+
+::placeholder{
+    padding: 5px;
+}
+
+.button{
+    width: 30%;
+    border: 0;
+  line-height: 2.5;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: rgb(221, 212, 212);
+}
+
+@media(max-width:750px){
+    .box2{
+        display: none;
+    }
+    .button{
+        font-size: 0.6rem;
+    }
+}
